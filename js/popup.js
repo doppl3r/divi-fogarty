@@ -1,7 +1,4 @@
 jQuery(document).ready(function($) {
-    // Remove Divi tip
-    $('.tip').remove();
-
     // Append empty popup if null
     if ($('#popup').length < 1) {
         $('body').append(

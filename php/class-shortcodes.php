@@ -23,9 +23,6 @@
                 // Pass target javascript variable
                 $target = $atts['target'];
                 wp_localize_script('popup', 'popupTarget', $target);
-
-                // Add page builder tip
-                $output = '<p class="popup-tip" style="display: none">[Click to edit popup shortcode]</p>';
             }
 
             // Return output value (default empty)
