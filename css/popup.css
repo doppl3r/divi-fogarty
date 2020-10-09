@@ -1,5 +1,5 @@
-/* Page styling */
-#team .et_pb_column { cursor: pointer; }
+/* Global styling */
+.disable-scroll { overflow: hidden; }
 
 /* Popup styling */
 #popup { display: none; /* Hidden by default */ padding: 64px 16px; position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index: 999999; }

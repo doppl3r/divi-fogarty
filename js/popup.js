@@ -15,9 +15,11 @@ jQuery(document).ready(function($) {
     // Add thumbnail click listener
     $(document).on('click', popupTarget, function(e){
         e.preventDefault();
+        var body = $('body');
         var popup = $('#popup');
         var content = $(this).clone().html();
         var close = popup.find('.close');
+        body.addClass('disable-scroll');
         popup.addClass('visible');
         popup.find('.content').html(content);
         popup.find('.content').scrollTop(0);
@@ -29,6 +31,8 @@ jQuery(document).ready(function($) {
         e.preventDefault();
         var popup = $('#popup');
         var content = popup.find('.content');
+        var body = $('body');
+        body.removeClass('disable-scroll');
         popup.removeClass('visible');
         content.empty();
     });
