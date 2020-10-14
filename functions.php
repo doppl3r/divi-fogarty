@@ -15,4 +15,5 @@
 
 	// Apply actions and filters
 	add_filter('init', 'Fogarty_Shortcodes::add_shortcode'); // Add shortcode object
+	add_filter('gform_progressbar_start_at_zero', '__return_true'); // Start progress bar at zero
 ?>
