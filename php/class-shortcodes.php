@@ -17,8 +17,8 @@
             
             if ($data == 'popup') {
                 // Enqueue popup libraries
-                wp_enqueue_style('popup');
                 wp_enqueue_script('popup');
+                wp_enqueue_style('popup');
 
                 // Pass target javascript variable
                 $target = $atts['target'];

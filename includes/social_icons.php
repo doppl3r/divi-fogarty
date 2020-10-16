@@ -1,11 +1,11 @@
 <ul class="et-social-icons">
 	<li class="et-social-icon et-social-facebook">
-		<a href="https://www.facebook.com/fogartyinstitute" class="icon" target="_blank">
+		<a href="https://www.facebook.com/fogartyinnovation" class="icon" target="_blank">
 			<span><?php esc_html_e( 'Facebook', 'Divi' ); ?></span>
 		</a>
 	</li>
 	<li class="et-social-icon et-social-twitter">
-		<a href="https://twitter.com/FogartyInst" class="icon" target="_blank">
+		<a href="https://twitter.com/FogartyInnov" class="icon" target="_blank">
 			<span><?php esc_html_e( 'Twitter', 'Divi' ); ?></span>
 		</a>
 	</li>
@@ -15,7 +15,7 @@
 		</a>
 	</li>
 	<li class="et-social-icon et-social-instagram">
-		<a href="https://www.instagram.com/fogartyinstitute/" class="icon" target="_blank">
+		<a href="https://www.instagram.com/fogartyinnovation/" class="icon" target="_blank">
 			<span><?php esc_html_e( 'Instagram', 'Divi' ); ?></span>
 		</a>
 	</li>

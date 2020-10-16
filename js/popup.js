@@ -5,7 +5,7 @@ jQuery(document).ready(function($) {
             '<div id="popup">' +
                 '<div class="background close"></div>' +
                 '<div class="wrapper">' +
-                    '<a aria-label="close popup" class="button close" href="#">x</a>' +
+                    '<span aria-label="close popup" class="button close" tabindex="0">x</span>' +
                     '<div class="content"></div>' +
                 '</div>' +
             '</div>'
